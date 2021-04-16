@@ -18,6 +18,6 @@ stage('Get approval'){
 }
 node {
     stage('deploy to qa'){
-        echo "deploying."
+        echo "deploying.."
     }
 }
